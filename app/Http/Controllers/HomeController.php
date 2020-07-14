@@ -23,7 +23,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        dd("abc");
+        return view('home');
     }
     public function home(){
         $user = User::all();
