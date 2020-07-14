@@ -13,6 +13,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
+        dd("Ss");
         $this->middleware('auth');
     }
 
